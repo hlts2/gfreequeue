@@ -13,6 +13,8 @@ go get github.com/hlts2/gfreequeue
 
 ### Basic Example
 
+Enqueu is `Enqueu(value interface{})`, so you can enqueu any type of object
+
 ```go
 
 q := New()
