@@ -54,7 +54,7 @@ for _, v := range q.Iterator() {
 
 [gfreequeue](https://github.com/hlts2/gfreequeue) vs [lfreequeue](https://github.com/scryner/lfreequeue) vs [lane](https://github.com/oleiade/lane/tree/v1.0.0)
 
-![Bench](https://github.com/hlts2/gfreequeue/images/benchmark.pn)
+![Bench](https://github.com/hlts2/gfreequeue/blob/master/images/benchmark.png)
 
 ## Author
 [hlts2](https://github.com/hlts2)
