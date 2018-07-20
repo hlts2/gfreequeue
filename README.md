@@ -11,6 +11,8 @@ go get github.com/hlts2/gfreequeue
 ```
 ## Example
 
+### Basic Example
+
 ```go
 
 q := New()
@@ -24,6 +26,26 @@ q.Dequeue() // 2
 q.Dequeue() // 3
 
 ```
+
+### Iterator Support
+
+```go
+
+q := New()
+
+q.Enqueue(1)
+q.Enqueue(2)
+q.Enqueue(3)
+
+q.Iterator() // [1, 2, 3]
+
+/*
+for _, v := range q.Iterator() {
+  fmt.Println(v)
+}
+*/
+```
+
 
 ## Author
 [hlts2](https://github.com/hlts2)
