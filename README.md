@@ -1,5 +1,7 @@
 # gfreequeue
 
+gfreequeue is simple lock-free queue written in golang.
+this queue is goroutine-safe.
 
 ## Requirement
 Go (>= 1.8)
