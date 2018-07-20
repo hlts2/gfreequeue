@@ -13,6 +13,16 @@ go get github.com/hlts2/gfreequeue
 
 ```go
 
+q := New()
+
+q.Enqueue(1)
+q.Enqueue(2)
+q.Enqueue(3)
+
+q.Dequeue() // 1
+q.Dequeue() // 2
+q.Dequeue() // 3
+
 ```
 
 ## Author
